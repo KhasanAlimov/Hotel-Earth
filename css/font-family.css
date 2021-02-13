@@ -1,0 +1,69 @@
+
+/* 'Yanone_Kaffeesatz' */
+@font-face {
+  font-family: 'Yanone_Kaffeesatz';
+  src: url("../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf") format("truetype"),
+  url("../fonts/Yanone_Kaffeesatz/AnyConv.com__YanoneKaffeesatz-VariableFont_wght.woff") format("woff"),
+  url("../fonts/Yanone_Kaffeesatz/AnyConv.com__YanoneKaffeesatz-VariableFont_wght.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* 'Fugaz_One' */
+@font-face {
+  font-family: 'Fugaz_One';
+  src: url("../fonts/Fugaz_One/FugazOne-Regular.ttf") format("truetype"),
+  url("../fonts/Fugaz_One/FugazOne-Regular.woff") format("woff"),
+  url("../fonts/Fugaz_One/FugazOne-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* 'Rubik' */
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik/Rubik-VariableFont_wght.ttf") format("truetype"),
+  url("../fonts/Rubik/Rubik-VariableFont_wght.woff") format("woff"),
+  url("../fonts/Rubik/Rubik-VariableFont_wght.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* 'Cinzel_Decorative' */
+@font-face {
+  font-family: 'Cinzel_Decorative';
+  src: url("../fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf") format("truetype"),
+  url("../fonts/Cinzel_Decorative/CinzelDecorative-Regular.woff") format("woff"),
+  url("../fonts/Cinzel_Decorative/CinzelDecorative-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* 'Comfortaa' */
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+  font-display: fallback;
+}
+
+/* 'MarckScript_Regular' */
+@font-face {
+  font-family: 'MarckScript_Regular';
+  src: url("../fonts/Marck_Script/MarckScript-Regular.ttf") format("truetype"),
+  url("../fonts/Marck_Script/MarckScript-Regular.woff") format("woff"),
+  url("../fonts/Marck_Script/MarckScript-Regular.woff2") format("woff2");
+  font-display: fallback;
+}
+
+/* 'Pacifico_Regular' */
+@font-face {
+  font-family: 'Pacifico_Regular';
+  src: url("../fonts/Pacifico/Pacifico-Regular.ttf") format("truetype"),
+  url("../fonts/Pacifico/Pacifico-Regular.woff") format("woff"),
+  url("../fonts/Pacifico/Pacifico-Regular.woff2") format("woff2");
+  font-display: fallback;
+}

@@ -1,0 +1,75 @@
+
+/* Контейнер навигационного меню */
+.nav-container {
+  z-index: 10;
+}
+.nav-container nav {
+  width: max-content;
+  font-family: 'Comfortaa', arial;
+  font-weight: 800;
+}
+.nav-container .navbar-collapse {
+  border-right: solid 2px #ff4e4e;
+  border-top: solid 2px #ff4e4e;
+  border-radius: 0px 10vh 10vh 0;
+  transition: 0.5s cubic-bezier(0.99, -0.97, 0.57, 0.72);
+}
+.nav-container .show {
+  background-color: #000000e1;
+  transition: 0.1s;
+  padding: 0 0 0 5px;
+}
+
+/* Иконка меню */
+#menuIcon {
+  outline: none;
+  transition: 0.5s;
+}
+/* Логотип */
+.logo-block a {
+  font-size: 20px;
+  font-family: 'Cinzel_Decorative', serif;
+}
+.logo-block {
+  padding: 5px 0 0 0;
+  transform: scaleX(2);
+}
+.logo-block p {
+  font-size: 10px;
+}
+.on-top-block {
+  bottom: 50px;
+  right: -50px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.show-onTop-button {
+  right: 50px;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+@media (max-width: 500px) {
+  .logo-block {
+    transform: scaleX(2) translate(-15px, 7px);
+  }
+  .logo-block a {
+  font-size: 13px;
+  }
+  .logo-block p {
+    font-size: 6px;
+  }
+  .navbar-collapse ul li a {
+    font-size: 13px;
+  }
+  #menuIcon {
+    transform: scale(0.9) translate(0, 2px);
+  }
+  .show-onTop-button {
+    right: 20px;
+    width: ;
+  }
+}

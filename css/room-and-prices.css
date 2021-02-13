@@ -1,0 +1,70 @@
+.all-content {
+  font-family: 'Comfortaa', serif;
+}
+.form-heading {
+  background-image: url(../img/peyzaj.webp);
+  padding: 25px 5px;
+  background-size: auto;
+  background-position: bottom;
+}
+.form-heading .description {
+  max-width: 800px;
+  margin: 10px  auto;
+}
+section.row {
+  margin: 0;
+}
+.room-img-block .carousel-control-prev, .room-img-block .carousel-control-next {
+  background-color: #030b14;
+}
+.gallery img {
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .form-heading .heading {
+    font-size: 3em;
+  }
+  .prices-by-class section .room-des-block {
+    text-align: right;
+  }
+  .prices-by-class section .price {
+    text-align: left;
+    padding: 10px 0 10px 35px;
+  }
+  .room-img-block .carousel-item img {
+    height: 250px;
+  }
+}
+@media (max-width: 992px) {
+  .prices-by-class section .price {
+    text-align: right;
+    padding: 10px 35px 10px 0;
+  }
+  .room-img-block .carousel-item img {
+    max-height: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .room-reservation button, .room-reservation input {
+    font-size: 13px;
+  }
+  .room-reservation label {
+    font-size: 11px !important;
+  }
+  .all-content p {
+    font-size: 12px;
+  }
+  .all-content .heading {
+    font-size: 27px;
+  }
+  .all-content .heading2 {
+    font-size: 25px;
+  }
+  .all-content .heading4 {
+    font-size: 20px;
+  }
+  .prices-by-class .room-des-block, .prices-by-class .room-img-block {
+    padding: 0;
+  }
+}

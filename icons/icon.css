@@ -1,0 +1,30 @@
+.hamburger_menu_2 > svg {
+  width: 30px;
+  height: 30px;
+}
+.hamburger_menu_2 > svg > rect {
+  height: 15px;
+  transition: 0.5s;
+  fill: aliceblue;
+}
+.hamburger_menu_2:hover > svg > rect {
+  fill: #24ff99;
+}
+.cross {
+  border-left: solid 1px #ff4e4e;
+  border-bottom: solid 2px #ff4e4e;
+  border-radius: 3vh 0 0 3vh;
+  margin: 0 0 -2px -20px;
+}
+.cross > svg > rect:first-child {
+  transform: rotate(44deg) translate(11px, -16px);
+  fill: #ff206a;
+}
+.cross > svg > rect:nth-child(n+2):not(:last-child) {
+  visibility: hidden;
+  opacity: 0;
+}
+.cross > svg > rect:last-child {
+  transform: rotate(-45deg) translate(-40px, -6px);
+  fill: #ff206a;
+}

@@ -1,0 +1,12 @@
+body {
+  background-color: #030b14 !important;
+  scroll-behavior: smooth;
+}
+
+body.main header nav .main-link, body.about-hotel header nav .about-hotel-link, body.contacts header nav .contacts-link, body.room-and-prices header nav .room-and-prices-link {
+  color: #ff4e4e !important;
+}
+.all-content:not(.main .all-content) {
+  margin: 70px 0 0 0;
+  width: min-content;
+}

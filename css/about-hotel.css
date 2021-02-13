@@ -1,0 +1,31 @@
+.about-hotel-widget {
+  display: none;
+}
+.text-container {
+  font-family: 'Comfortaa', arial;
+  padding: 15px 25px;
+}
+.text-container .heading {
+  background-color: #5f9ea0b3;
+  white-space: nowrap;
+}
+
+
+
+@media (min-width: 992px) {
+  .text-container p, .text-container ul {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-container {
+    padding: 15px 15px;
+  }
+  .text-container .heading {
+    font-size: 35px;
+  }
+  .text-container p, .text-container ul {
+    font-size: 12px;
+  }
+}
