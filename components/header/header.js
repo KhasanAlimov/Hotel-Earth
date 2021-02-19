@@ -5,8 +5,8 @@
       const navMenu = `
         <div class="position-absolute nav-container w-100 mx-auto d-flex justify-content-around">
           <nav class="navbar navbar-expand-lg">
-            <button id="menuIcon" class="navbar-toggler hamburger_menu_2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">${animateMenuIcon2}</button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <button id="menuIcon" class="navbar-toggler hamburger_menu_2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">${animateMenuIcon2}</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link text-light main-link" href="index.html">Главное</a>
